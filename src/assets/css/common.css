@@ -1,0 +1,8 @@
+:root{
+    /* 自定义主题色 */
+    --primary-color: #57c3c2;
+}
+body{
+    font-size: 14px;
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+}
