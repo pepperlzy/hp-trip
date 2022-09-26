@@ -16,10 +16,19 @@
     import tabbarDate from '../../assets/data/tabbar.js'
 
     import { getAssetURL } from "@/utils/get_asset_img";
-    import { ref } from 'vue';
-    import { useRouter } from 'vue-router';
+    import { ref, watch } from 'vue';
+    import { useRoute, useRouter } from 'vue-router';
 
+    // 控制底部导航栏颜色切换,监听路由索引，找到对应的索引是指为currentIndex
+    const route = useRoute()
     const currentIndex = ref(0)
+    watch(route, (newValue) => {
+        // console.log(newValue.path)
+        const index = tabbarDate.findIndex(item => item.path === newValue.path)
+       if(index === -1) return
+       currentIndex.value = index
+
+    })
 
     const router = useRouter()
    const itemClick = (index, item) =>{
@@ -43,6 +52,7 @@
         height: 60px;
         display: flex;
         border-top: 1px solid #f3f3f3;
+        background-color: #fff;
 
         .tab-bar-item{
         flex: 1;

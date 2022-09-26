@@ -115,6 +115,13 @@ tab-bar.js
 
 10. vant---ui框架的使用
 
-    安装  npm install vant,配置相关设置
+   安装  npm install vant,配置相关设置
 
-    
+11. 安装day.js库
+
+
+
+###  防抖、节流库
+
+https://underscorejs.org/
+
