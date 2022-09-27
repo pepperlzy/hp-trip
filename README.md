@@ -46,37 +46,37 @@ npm run build
 
 7. 安装路由 npm install vue-router
 
-   ![1663804684391](./src/assets/img/screenshot/7-1.png)
+   ![1663804684391](https://user-images.githubusercontent.com/109357565/192409252-18dd1564-374a-42af-af5e-24e1291bc4e1.png)
 
-   ![1663804728244](./src/assets/img/screenshot/7-2.png)
+   ![1663804728244](https://user-images.githubusercontent.com/109357565/192410081-0644ace1-2d70-43eb-93c7-09fa9978b75f.png)
 
 8. 安装pinia npm install pinia
 
-![1663804813023](./src/assets/img/screenshot/8-1.png)
+![1663804813023](https://user-images.githubusercontent.com/109357565/192410097-06b46ac8-1998-4b8c-9a5a-2f288ecd754f.png)
 
-![1663804859546](./src/assets/img/screenshot/8-2.png)
+![1663804859546](https://user-images.githubusercontent.com/109357565/192410112-a8e8a951-a3a2-476b-9fa5-6a4c7a4be424.png)
 
 
 
 > 分模块化
 
-![1663805147150](./src/assets/img/screenshot/8-3.png)
+![1663805147150](https://user-images.githubusercontent.com/109357565/192410124-4aaaa253-f1a6-4db8-8dbc-2bbf34f963a0.png)
 
 
 
-9. 编写tab-bar组件
+1. 编写tab-bar组件
 
    安装less --> npm install less -D
 
-   ![1663806889422](./src/assets/img/screenshot/9-1.png)
+   ![1663806889422](https://user-images.githubusercontent.com/109357565/192410124-4aaaa253-f1a6-4db8-8dbc-2bbf34f963a0.png)
 
    运行不了将target: "es5" 注释·
 
-   ![1663808990174](./src/assets/img/screenshot/9-2.png)
+   ![1663808990174](https://user-images.githubusercontent.com/109357565/192410136-d352e003-e7b8-40f5-a9f7-358dd787df41.png)
 
 抽取代码
 
-![1663810810779](./src/assets//img/screenshot/9-3.png)
+![1663810810779](https://user-images.githubusercontent.com/109357565/192410172-07ec8690-0a30-4379-bbca-4cab5e48a683.png)
 
 
 
@@ -113,7 +113,7 @@ tab-bar.js
     }
 ```
 
-10. vant---ui框架的使用
+1.  vant---ui框架的使用
 
    安装  npm install vant,配置相关设置
 
@@ -129,20 +129,20 @@ https://underscorejs.org/
 
 首页
 
-![1664237839619](./src/assets/img/screenshot/10-1.png)
+![1664237839619](https://user-images.githubusercontent.com/109357565/192410228-b88f76dd-7076-4bd6-8542-8fa0488a1bf8.png)
 
 
 
 收藏
 
-![1664237899772](./src/assets/img/screenshot/10-2.png)
+![1664237899772](https://user-images.githubusercontent.com/109357565/192410302-ae017881-5a67-4b89-8f55-dd2a9b95266a.png)
 
 
 
 订单
 
-![1664237964099](./src/assets/img/screenshot/10-3.png)
+![1664237964099](https://user-images.githubusercontent.com/109357565/192410312-0c35185b-5ce2-467f-9e4d-a1dae97c7a89.png)
 
 消息
 
-![1664237997415](./src/assets/img/screenshot/10-4.png)
+![1664237997415](https://user-images.githubusercontent.com/109357565/192410435-0018e51b-3218-4a25-8600-9ea168b3e45e.png)
