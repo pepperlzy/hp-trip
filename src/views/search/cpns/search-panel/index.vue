@@ -56,7 +56,7 @@ import { debounce } from "@/utils/common.js";
 import {
   // useLoadingStore,
   useSearchStore,
-} from "@/store/index";
+} from "@/stores/index";
 const value = ref("");
 const searchsuggest = ref([]);
 // const loadingStore = useLoadingStore();

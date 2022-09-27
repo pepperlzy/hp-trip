@@ -46,21 +46,21 @@ npm run build
 
 7. 安装路由 npm install vue-router
 
-   ![1663804684391](E:\Vscode\项目笔记图片\7-1.png)
+   ![1663804684391](./src/assets//img//screenshot/7-1.png)
 
-   ![1663804728244](E:\Vscode\项目笔记图片\7-2.png)
+   ![1663804728244](./src/assets//img//screenshot/7-2.png)
 
 8. 安装pinia npm install pinia
 
-![1663804813023](E:\Vscode\项目笔记图片\8-1.png)
+![1663804813023](./src/assets//img//screenshot/8-1.png)
 
-![1663804859546](E:\Vscode\项目笔记图片\8-2.png)
+![1663804859546](./src/assets//img//screenshot/8-2.png)
 
 
 
 > 分模块化
 
-![1663805147150](E:\Vscode\项目笔记图片\8-3.png)
+![1663805147150](./src/assets//img//screenshot/8-3.png)
 
 
 
@@ -68,15 +68,15 @@ npm run build
 
    安装less --> npm install less -D
 
-   ![1663806889422](E:\Vscode\项目笔记图片\9-1.png)
+   ![1663806889422](./src/assets//img//screenshot/9-1.png)
 
    运行不了将target: "es5" 注释·
 
-   ![1663808990174](E:\Vscode\项目笔记图片\9-2.png)
+   ![1663808990174](./src/assets//img//screenshot/9-2.png)
 
 抽取代码
 
-![1663810810779](E:\Vscode\项目笔记图片\9-3.png)
+![1663810810779](./src/assets//img//screenshot/9-3.png)
 
 
 
@@ -125,3 +125,24 @@ tab-bar.js
 
 https://underscorejs.org/
 
+## 项目效果图
+
+首页
+
+![1664237839619](./src/assets//img//screenshot/10-1.png)
+
+
+
+收藏
+
+![1664237899772](./src/assets//img//screenshot/10-2.png)
+
+
+
+订单
+
+![1664237964099](./src/assets//img//screenshot/10-3.png)
+
+消息
+
+![1664237997415](./src/assets//img//screenshot/10-4.png)
